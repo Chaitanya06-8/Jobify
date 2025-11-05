@@ -38,7 +38,7 @@ const Register = () => {
             // posting
             try {
                 const response = await axios.post(
-                    "https://jobify-backend-omj0ptcqu-chaitanyas-projects-08fa3399.vercel.app/api/v1/auth/register",
+                    "https://jobify-backend-iota.vercel.app/api/v1/auth/register",
                     user
                 );
 
