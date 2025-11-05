@@ -33,7 +33,7 @@ const JobCard = ({ job }) => {
         };
         try {
             const response = await postHandler({
-                url: "https://full-stack-job-portal-server.vercel.app/api/v1/application/apply",
+                url: "https://jobify-backend-omj0ptcqu-chaitanyas-projects-08fa3399.vercel.app/api/v1/application/apply",
                 body: appliedJob,
             });
             Swal.fire({

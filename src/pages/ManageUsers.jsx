@@ -20,7 +20,7 @@ const ManageUsers = () => {
     } = useQuery({
         queryKey: ["users"],
         queryFn: () =>
-            getAllHandler(`https://full-stack-job-portal-server.vercel.app/api/v1/users`),
+            getAllHandler(`https://jobify-backend-omj0ptcqu-chaitanyas-projects-08fa3399.vercel.app/api/v1/users`),
     });
 
     const updateUserModal = (id, role) => {
@@ -43,7 +43,7 @@ const ManageUsers = () => {
         const updateUser = { id, role };
         try {
             const response = await axios.patch(
-                `https://full-stack-job-portal-server.vercel.app/api/v1/admin/update-role`,
+                `https://jobify-backend-omj0ptcqu-chaitanyas-projects-08fa3399.vercel.app/api/v1/admin/update-role`,
                 updateUser,
                 { withCredentials: true }
             );

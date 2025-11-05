@@ -1,15 +1,23 @@
+
+ 
 const people = [
     {
       name: 'Chaitanya Nikose',
       role: 'Founder',
       imageUrl:
-        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      "https://unsplash.com/photos/mature-businessman-wearing-a-shirt-and-tie-reading-documents-while-sitting-alone-at-his-desk-in-an-office-egxGUGdGGXs",
+    
+      
+       
     },
     {
       name: 'Manthan',
       role: 'CEO',
       imageUrl:
-        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+  
+      
+     
     },
     // More people
   ]

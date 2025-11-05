@@ -25,7 +25,7 @@ const JobContext = ({ children }) => {
 
     useEffect(() => {
         handleJobFetch(
-            `https://full-stack-job-portal-server.vercel.app/api/v1/jobs?page=1`
+           `https://jobify-backend-omj0ptcqu-chaitanyas-projects-08fa3399.vercel.app/vercel.app/api/v1/auth/logout`
         );
     }, []);
     const passing = {

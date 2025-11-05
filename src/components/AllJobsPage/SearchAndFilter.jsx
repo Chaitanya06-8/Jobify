@@ -16,7 +16,7 @@ const SearchAndFilter = () => {
 
     useEffect(() => {
         const baseUrl =
-            "https://full-stack-job-portal-server.vercel.app/api/v1/jobs?page=1&limit=5";
+            "https://jobify-backend-omj0ptcqu-chaitanyas-projects-08fa3399.vercel.app/api/v1/jobs?page=1&limit=5";
         let url = baseUrl;
         const queryParams = {};
 

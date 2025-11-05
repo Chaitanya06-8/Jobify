@@ -30,7 +30,7 @@ const Login = () => {
         // posting
         try {
             const response = await axios.post(
-                "https://full-stack-job-portal-server.vercel.app/api/v1/auth/login",
+                "https://jobify-backend-omj0ptcqu-chaitanyas-projects-08fa3399.vercel.app/vercel.app/api/v1/auth/logout",
                 data,
                 {
                     withCredentials: true,

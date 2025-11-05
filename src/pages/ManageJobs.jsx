@@ -25,7 +25,7 @@ const ManageJobs = () => {
         queryKey: ["my-jobs"],
         queryFn: () =>
             getAllHandler(
-                `https://full-stack-job-portal-server.vercel.app/api/v1/jobs/my-jobs`
+                `https://jobify-backend-omj0ptcqu-chaitanyas-projects-08fa3399.vercel.app/api/v1/jobs/my-jobs`
             ),
     });
 
@@ -55,7 +55,7 @@ const ManageJobs = () => {
             // const updateJobs = jobs?.result?.filter((job) => job._id !== id);
             // setJobs(updateJobs);
             // handleJobFetch(
-            //     `https://full-stack-job-portal-server.vercel.app/api/v1/jobs?page=1`
+            //     `https://jobify-backend-omj0ptcqu-chaitanyas-projects-08fa3399.vercel.app/api/v1/jobs?page=1`
             // );
             refetch();
             Swal.fire({
