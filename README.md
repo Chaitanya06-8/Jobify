@@ -101,4 +101,5 @@ The admin panel includes platform-wide statistics like:
 
 
 
-> 🔍 **Tags**: `job portal`, `job application platform`, `job seeker`, `recruiter`, `admin dashboard`, `java project`, `job listing web app`, `student project`, `career portal`
+
+
