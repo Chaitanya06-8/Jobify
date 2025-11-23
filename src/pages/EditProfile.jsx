@@ -60,7 +60,7 @@ const EditProfile = () => {
             }
 
             const response = await axios.patch(
-                `https://jobify-backend-omj0ptcqu-chaitanyas-projects-08fa3399.vercel.app/api/v1/users`,
+                `https://jobify-backend-iota.vercel.app/api/v1/users`,
                 updateUser,
                 {
                     withCredentials: true,

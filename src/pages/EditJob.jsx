@@ -35,7 +35,7 @@ const EditJob = () => {
         queryKey: ["updateJob"],
         queryFn: () =>
             getSingleHandler(
-                `https://jobify-backend-omj0ptcqu-chaitanyas-projects-08fa3399.vercel.app/api/v1/jobs/${id}`
+                `https://jobify-backend-iota.vercel.app/api/v1/jobs/${id}`
                 
             ),
     });

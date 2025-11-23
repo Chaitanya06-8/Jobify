@@ -3,12 +3,14 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import Logo from "../components/Logo";
 import { Link, useLocation, useNavigate } from "react-router-dom";
+import api from "./api";
 
 import { useForm } from "react-hook-form";
 import axios from "axios";
 import Swal from "sweetalert2";
 import { useUserContext } from "../context/UserContext";
 
+const API = import.meta.env.VITE_API_URL;
 const Login = () => {
     const { handleFetchMe } = useUserContext();
     const {
@@ -21,16 +23,14 @@ const Login = () => {
     const [isLoading, setIsLoading] = useState(false);
     let navigate = useNavigate();
     let location = useLocation();
-    let from = location.state?.from?.pathname || "/"; // to navigate right location after login
+    let from = location.state?.from?.pathname || "/"; 
 
     const onSubmit = async (data) => {
         setIsLoading(true);
-        // password: A@1abcde
-
-        // posting
+       
         try {
             const response = await axios.post(
-                "https://jobify-backend-iota.vercel.app/api/v1/auth/logout",
+               "https://jobify-backend-iota.vercel.app/api/v1/auth/login",
                 data,
                 {
                     withCredentials: true,
